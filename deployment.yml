@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: my-deployment
+endpoint_name: my-endpoint-ridge-1
+model:
+  - name: my-model
+    version: 1
+code_configuration:
+  scoring_script: score.py
+instance_type: Standard_DS11_v2
+instance_count: 1
