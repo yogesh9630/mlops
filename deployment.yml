@@ -1,6 +1,6 @@
 $schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
 name: my-deployment
-endpoint_name: my-endpoint-ridge-1
+endpoint_name: my-endpoint-inference
 model:
   - name: my-model
     version: 1
