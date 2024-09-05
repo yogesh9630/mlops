@@ -2,6 +2,4 @@ name: my-environment
 description: My environment for training
 image: mcr.microsoft.com/azureml/base:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
 conda_file: mlops/conda_dependencies.yml
-docker:
-  base_image: mcr.microsoft.com/azureml/base:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
-  shared_docker: true
+
