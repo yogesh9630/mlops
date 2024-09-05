@@ -1,5 +1,5 @@
 $schema: https://azuremlschemas.azureedge.net/latest/managedOnlineEndpoint.schema.json
-name: my-endpoint-inference
+name: my-endpoint-inference-299393r
 auth_mode: key
 
 
