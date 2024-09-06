@@ -2,5 +2,4 @@ $schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.sch
 name: my-endpoint-inference
 endpoint_name: my-endpoint-inference
 model: azureml:my-model:1
-instance_type: Standard_DS11_v2
 instance_count: 1
